@@ -10,7 +10,7 @@ async function bootstrap() {
     .setTitle('Employees API')
     .setDescription('CRUD API for employees with static data')
     .setVersion('1.0')
-    .addTag('Employees') // لتصنيف الـ endpoints
+    .addTag('Employees') 
     .build();
 
   const document = SwaggerModule.createDocument(app, config);

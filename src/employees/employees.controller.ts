@@ -8,7 +8,7 @@ class Employee {
   Salary: number;
 }
 
-@ApiTags('Employees') // هذا التاج لتمييز الـ endpoints الخاصة بالموظفين
+@ApiTags('Employees') 
 @Controller('employees')
 export class EmployeesController {
   private employees: Employee[] = [

@@ -6,7 +6,7 @@ import { EmployeesController } from './employees/employees.controller';
 
 @Module({
   imports: [],
-  controllers: [EmployeesController], // إضافة الـ controller هنا
+  controllers: [EmployeesController],
   providers: [],
 })
 export class AppModule {}
